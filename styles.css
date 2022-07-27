@@ -1,0 +1,43 @@
+body {
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.avatar {
+  width: 150px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  0%   {left:-100px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #EFD9CE;
+    color: #25283d;
+    border-bottom: 6px solid #AF3985;
+    border-radius: 8px
+}
+
+a {
+    color: #25283d;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #A675A1;
+}
+
+
+
